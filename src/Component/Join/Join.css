@@ -1,0 +1,136 @@
+
+
+.container1{
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+  flex-direction: column;
+  padding: 1%;
+  border-radius: 1%;
+box-shadow: 1px 1px 5px 2px #888888;
+}
+ .h1{
+ color: bold;
+ margin: 4%;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: Poppins;
+}
+.inputc p{
+   
+    color: red;
+    font-family: Poppins;
+    font-size: 15px;
+}
+ .img{
+    color: #fcf8f8;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+   }
+   .inputc{
+   
+    padding: 2%;
+   }
+   .inputc label{
+    color:bold;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+    
+margin-left: 1%;
+   
+   }
+   
+.input{
+    background-color: #fff;
+    width: 440px;
+    height: 40px;
+    border-radius: 8px;
+ 
+   }
+
+  
+  
+
+   .login:hover{
+    background:linear-gradient(#C9D6FF,#E2E2E2) ; 
+
+   }
+   .btn1{
+   
+    padding: 2%;
+    
+   }
+   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(58, 57, 57);
+    opacity: 1;
+    font-family: poppins; 
+    font-size: 17px;
+  }
+.login{
+    display: flex;
+    justify-content: center;
+    width: 440px;
+    height: 39px;
+    align-items: center;
+    border-radius: 10px;
+    font-family: poppins;
+font-weight: 600;
+font-size: 20px;
+}
+  @media only screen and (max-width: 600px) {
+
+    .input{
+        background-color: #fff;
+        width: 380px;
+        height: 40px;
+        border-radius: 8px;
+     
+       }
+    
+     
+       .container1{
+        background-color: #fff;
+        
+        width: 480px;
+    }
+    .login{
+       
+        width: 380px;
+        height: 39px;
+       
+    }
+  }
+
+
+  @media only screen and (min-width: 600px) and (max-width: 1300px) {
+
+    .input{
+       
+        width: 380px;
+        height: 40px;
+       }
+
+       .container1{
+        background-color: #fff;
+        
+        width: 480px;
+    }
+    .login{
+       
+        width: 380px;
+        height: 39px;
+       
+    }
+
+
+
+
+    
+  }
+
